@@ -1,5 +1,5 @@
 # SNBP/ UTBK-SNBT GENERATOR
 
-Generator Pengumuman SNBP di https://anugrahbodi.github.io/
+Generator Pengumuman SNBP di https://pengumuman-snbp.vercel.app/
 
-Generator Pengumuman UTBK-SNBT di https://anugrahbodi.github.io/snbt-generator
+Generator Pengumuman UTBK-SNBT di https://pengumuman-snbp.vercel.app/snbt-generator

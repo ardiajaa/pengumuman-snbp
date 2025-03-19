@@ -17,7 +17,7 @@
 
 <body>
     <span id="blocks">
-        <span class="abc"> Made with &#10084; by <a href="https://github.com/anuGrahbodi" style="color: white;">Your Admirer </a>|| <strong>SNBT GENERATOR 2024</strong></br>
+        <span class="abc"> Made with &#10084; by <a href="https://github.com/ardiajaa" style="color: white;">Your Admirer </a>|| <strong>SNBT GENERATOR 2024</strong></br>
         </br> Mode :    <button id="toggleRedBlue" onclick="changeKabKot()">Lulus/ biru</button><br/><br>
         Nomor Peserta <br/><input type="text" id="inope" placeholder="Nomor Peserta"/><button onclick="generateNumbers()">Randomize Nomor Peserta</button>
         </br>

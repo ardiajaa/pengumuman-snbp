@@ -1,12 +1,12 @@
 let player;
 let isPlaying = false;
 function onYouTubeIframeAPIReady() {
-  player = new YT.Player('youtube-player', {
-    height: '0',
-    width: '0',
-    videoId: 'MkQeQYvcsbo',
-    playerVars: { 'autoplay': 1, 'controls': 0, 'showinfo': 0, 'modestbranding': 1 },
-    events: { 'onReady': onPlayerReady, 'onStateChange': onPlayerStateChange }
+  player = new YT.Player("youtube-player", {
+    height: "0",
+    width: "0",
+    videoId: "MkQeQYvcsbo",
+    playerVars: { autoplay: 1, controls: 0, showinfo: 0, modestbranding: 1 },
+    events: { onReady: onPlayerReady, onStateChange: onPlayerStateChange },
   });
 }
 function onPlayerReady(event) {
@@ -15,8 +15,9 @@ function onPlayerReady(event) {
   if (title.length > 27) {
     title = title.substring(0, 27) + "...";
   }
-  document.getElementById('title').textContent = title;
-  document.getElementById("thumbnail").src = "https://img.youtube.com/vi/" + videoData.video_id + "/default.jpg";
+  document.getElementById("title").textContent = title;
+  document.getElementById("thumbnail").src =
+    "https://img.youtube.com/vi/" + videoData.video_id + "/default.jpg";
   updateDuration();
   setInterval(updateTime, 500);
   setTimeout(togglePlay, 2000);

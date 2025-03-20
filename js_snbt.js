@@ -25,10 +25,10 @@ function goComment() {
 }
 function alertAuthor() {
   var author = confirm(
-    "Author website ini adalah orang yang terjebak, Anda juga? IG @anugrahspsb, Klik OK untuk ke IG. (instagram.com)"
+    "Author website ini adalah orang yang terjebak, Anda juga? IG @ikiardiii, Klik OK untuk ke IG. (instagram.com)"
   );
   if (author) {
-    window.location.href = "https://instagram.com/_u/anugrahspsb";
+    window.location.href = "https://instagram.com/_u/ikiardiii";
   }
 }
 let abb = 0;
@@ -51,10 +51,10 @@ function alertTutorial() {
 }
 function alertFeedback() {
   var result = confirm(
-    "Beri masukan anda mengenai website ini, saran dan kritik akan diapresiasi (sebenarnya ada error di kodenya cuman ntah dimana mau bantu ga pls)! (ngl.link)"
+    "Beri masukan anda mengenai website ini, saran dan kritik akan diapresiasi (sebenarnya ada error di kodenya cuman ntah dimana mau bantu ga pls)! (wa sama mah)"
   );
   if (result) {
-    window.location.href = "https://ngl.link/anugrahspsb48124";
+    window.location.href = "https://wa.me/6285656815559";
   }
 }
 function alertNote() {
